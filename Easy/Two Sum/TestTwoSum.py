@@ -36,7 +36,7 @@ def test_twoSum():
 
     # Test case 6: Large numbers
     nums = [230, 863, 916, 585, 981, 121, 866, 934, 857, 174]
-    target = 2000
+    target = 1850
     expected = [2, 7]
     assert solution.twoSum(nums, target) == expected, f"Test case 6 failed"
 
